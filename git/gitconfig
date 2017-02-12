@@ -1,0 +1,11 @@
+
+# Clark Sell's Git Config
+
+[user]
+	name = Clark Sell
+	email = clark.sell@csell.net
+
+[alias]
+	st = status
+
+

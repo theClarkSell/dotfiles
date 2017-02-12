@@ -8,6 +8,10 @@
     ~/.dotfiles: ''
     ~/.vim: vim
     ~/.vimrc: vim/vimrc
+    ~/.gitconfig:
+      force: true
+      path: git/gitconfig
+    ~/.gitignore: git/gitignore
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
