@@ -1,30 +1,31 @@
 
-# Vim Setup
+# My Vim Setup
 
-# Great Articles
-- http://marcgg.com/blog/2016/03/01/vimrc-example/
-- http://www.glump.net/files/2012/08/vi-vim-cheat-sheet-and-tutorial.pdf
+## Great Articles
+* [Mike Coutermarsh's, Learn Vim in a Week](https://mikecoutermarsh.com/learning-vim-in-a-week/)
+* [Vim Configuration From Scratch in 2016](http://marcgg.com/blog/2016/03/01/vimrc-example/)
+* [Vim Cheat Sheets](http://www.glump.net/files/2012/08/vi-vim-cheat-sheet-and-tutorial.pdf)
 
-# Places to learn more
-- http://vimcasts.org
-- http://upcase.com/vim
+## Places to learn more
+* vimtutor
+* http://vimcasts.org
+* http://upcase.com/vim
+* [Mastering the Vim Language](https://www.youtube.com/watch?v=wlR5gYd6um0)
 
-## My Setup
+## General Setup Notes
 
-My dotfiles are managed with [botdot]()
-
-syslink for your dotfiles
+* syslink for your dotfiles
 
 ``` bash
-ln -s ~/.vim/vimrc ~/.vimrc
+  ln -s ~/.vim/vimrc ~/.vimrc
 ```
 
-- remap esc to capsLock
-- speed up key repeat - https://pqrs.org/osx/karabiner/
+* Remap capsLock to esd
+* Speed up the key repeat - https://pqrs.org/osx/karabiner/
 
 ```
-default 500/83
-new 400/25
+  default 500/83
+  new 400/25
 ```
 
 ## Theme
@@ -34,18 +35,16 @@ new 400/25
 [Pathogen](https://github.com/tpope/vim-pathogen)
 
 ``` bash
-mkdir -p ~/.vim/autoload ~/.vim/bundle ; \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  mkdir -p ~/.vim/autoload ~/.vim/bundle ; \
+  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
-
-This mapping assumes symlinks are setup a directory down as my dotfiles are organized by purpose.
 
 ## Vim Bundles
 
 My bundles are added as git submodules and loaded by Pathogen.
 
 ``` bash
-git submodule add https://github.com/user/pluginname.git bundle/pluginname
+  git submodule add https://github.com/user/pluginname.git bundle/pluginname
 ```
 
 ### Current Bundles
