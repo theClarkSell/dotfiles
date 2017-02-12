@@ -1,0 +1,4 @@
+.DS_Store
+
+# never include any vim working files
+.swp

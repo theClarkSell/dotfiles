@@ -1,0 +1,16 @@
+execute pathogen#infect()
+
+filetype on
+syntax on
+colorscheme Tomorrow-Night
+
+set guifont=Menlo:h18
+set colorcolumn=90
+set showcmd
+set cursorline
+set laststatus=2
+set number
+set relativenumber
+
+map <C-n> :NERDTreeToggle<CR>
+
