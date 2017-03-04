@@ -1,0 +1,1 @@
+/Users/csell5/.config/fisherman/fnm/functions/npm.fish
