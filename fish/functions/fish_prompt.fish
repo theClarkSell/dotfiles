@@ -1,0 +1,1 @@
+/Users/csell5/.local/share/omf/themes/chain/fish_prompt.fish

@@ -1,17 +1,20 @@
 - defaults:
-    link:
-      relink: true
+  link:
+    relink: true
 
 - clean: ['~']
 
 - link:
-    ~/.dotfiles: ''
-    ~/.vim: vim
-    ~/.vimrc: vim/vimrc
-    ~/.gitconfig:
-      force: true
-      path: git/gitconfig
-    ~/.gitignore: git/gitignore
+  ~/.dotfiles: ''
+  ~/.vim: vim
+  ~/.vimrc: vim/vimrc
+  ~/.gitconfig:
+    force: true
+    path: git/gitconfig
+  ~/.gitignore: git/gitignore
+  ~/.config/fish:
+    force: true
+    path: fish
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

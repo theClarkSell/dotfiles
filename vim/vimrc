@@ -4,6 +4,8 @@ filetype on
 syntax on
 colorscheme Tomorrow-Night
 
+set tabstop=2
+set expandtab
 set guifont=Menlo:h18
 set colorcolumn=90
 set showcmd
