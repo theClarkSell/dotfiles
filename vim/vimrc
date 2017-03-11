@@ -5,7 +5,9 @@ syntax on
 colorscheme Tomorrow-Night
 
 set tabstop=2
+set shiftwidth=2 
 set expandtab
+set autoindent
 set guifont=Menlo:h18
 set colorcolumn=90
 set showcmd
@@ -14,6 +16,7 @@ set laststatus=2
 set number
 set relativenumber
 set showmatch
+set autoread
 
 map <C-n> :NERDTreeToggle<CR>
 
