@@ -7,4 +7,7 @@
 
 [alias]
 	st = status
+  ol = log --oneline --decorate --graph -10
 
+[branch]
+  autosetuprebase = always
