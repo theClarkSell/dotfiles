@@ -1,1 +1,0 @@
-/Users/csell5/.config/fisherman/fnm/conf.d/fnm.fish

@@ -1,1 +1,0 @@
-/Users/csell5/.config/fisherman/fnm/functions/__fnm_index_update.fish

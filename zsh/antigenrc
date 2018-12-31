@@ -1,0 +1,18 @@
+# https://github.com/zsh-users/antigen
+# https://github.com/zsh-users/antigen/issues/543
+
+source /usr/local/share/antigen/antigen.zsh
+
+antigen use oh-my-zsh
+
+# Syntax highlighting bundle. https://github.com/zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Fish-like auto suggestions
+antigen bundle zsh-users/zsh-autosuggestions
+
+# NVM https://github.com/lukechilds/zsh-nvm
+antigen bundle lukechilds/zsh-nvm
+
+# apply bundles
+antigen apply

@@ -2,19 +2,18 @@
   link:
     relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
 - link:
-  ~/.dotfiles: ''
+  ~/.dotfiles: ""
   ~/.vim: vim
   ~/.vimrc: vim/vimrc
   ~/.gitconfig:
     force: true
     path: git/gitconfig
   ~/.gitignore: git/gitignore
-  ~/.config/fish:
-    force: true
-    path: fish
+  ~/.zshrc: zsh/zshrc
+  ~/.antigen: zsh/antigen
 
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]

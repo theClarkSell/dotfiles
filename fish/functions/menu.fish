@@ -1,1 +1,0 @@
-/Users/csell5/.config/fisherman/menu/menu.fish

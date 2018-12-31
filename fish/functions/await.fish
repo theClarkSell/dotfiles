@@ -1,1 +1,0 @@
-/Users/csell5/.config/fisherman/await/functions/await.fish
