@@ -1,0 +1,31 @@
+[
+  {
+    "defaults": {
+      "link": {
+        "relink": true
+      }
+    }
+  },
+  {
+    "clean": ["~"]
+  },
+  {
+    "link": {
+      "~/.dotfiles": "",
+      "~/.vim": "vim",
+      "~/.vimrc": "vim/vimrc",
+      "~/.gitconfig": {
+        "force": true,
+        "path": "git/gitconfig"
+      },
+      "~/.gitignore": "git/gitignore",
+      "~/.zshrc": "zsh/zshrc",
+      "~/.antigenrc": "zsh/antigenrc"
+    }
+  },
+  {
+    "shell": [
+      ["git submodule update --init --recursive, Installing submodules"]
+    ]
+  }
+]
