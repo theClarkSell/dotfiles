@@ -15,12 +15,6 @@ My repo is setup using [dotbot](https://github.com/anishathalye/dotbot).
 - [thoughtbot](https://github.com/thoughtbot/dotfiles)
 - [Mike Coutermarsh](https://github.com/mscoutermarsh/dotfiles)
 
-## Setup
-
-`brew install zsh zsh-completions`
-
-install oh-my-zsh
-
 ## readme
 
 This repo has a folder for each respective area of dotfiles. In each you will find a readme
