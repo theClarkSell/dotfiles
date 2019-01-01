@@ -106,5 +106,3 @@ antigen init $HOME/.antigenrc
 
 # initalize completions
 fpath=(/usr/local/share/zsh-completions $fpath)
-
-

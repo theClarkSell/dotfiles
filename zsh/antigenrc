@@ -14,5 +14,7 @@ antigen bundle zsh-users/zsh-autosuggestions
 # NVM https://github.com/lukechilds/zsh-nvm
 antigen bundle lukechilds/zsh-nvm
 
+antigen theme denysdovhan/spaceship-prompt
+
 # apply bundles
 antigen apply
