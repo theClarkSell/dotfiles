@@ -1,13 +1,15 @@
-### Current Bundles
+## Current Bundles
 
-- [Hack Font](https://sourcefoundry.org/hack/)
+### [Hack Font](https://sourcefoundry.org/hack/)
 
-  - https://github.com/source-foundry/Hack#quick-installation
-  - Manually Swap terminal and editor to Hack
+Manually Swap terminal and editor to Hack
 
-- [Powerline Fonts](https://github.com/powerline/fonts)
+- https://github.com/source-foundry/Hack#quick-installation
 
-  - `git submodule add https://github.com/powerline/fonts.git fonts/powerline`
+### [Powerline Fonts](https://github.com/powerline/fonts) - already configured automatically
 
-- [FiraCode](https://github.com/tonsky/FiraCode)
-  - current not being used. but a good option.
+     - `git submodule add https://github.com/powerline/fonts.git fonts/powerline`
+
+### [FiraCode](https://github.com/tonsky/FiraCode)
+
+Is current not being used but also a great developer font.
