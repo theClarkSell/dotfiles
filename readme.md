@@ -8,7 +8,7 @@ assumes `homebrew` and `git` are already installed.
 https://github.com/csell5/dotfiles.git;
 brew install zsh zsh-completions antigen;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
-cd dotfiles;
+cd ./dotfiles;
 ./install
 ```
 
