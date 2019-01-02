@@ -8,7 +8,9 @@ Manually Swap terminal and editor to Hack
 
 ### [Powerline Fonts](https://github.com/powerline/fonts) - already configured automatically
 
-     - `git submodule add https://github.com/powerline/fonts.git fonts/powerline`
+```bash
+git submodule add https://github.com/powerline/fonts.git fonts/powerline
+```
 
 ### [FiraCode](https://github.com/tonsky/FiraCode)
 

@@ -2,11 +2,15 @@
 
 Install ZSH, Zsh-Completions and Antigen
 
-    brew install zsh zsh-completions antigen
+```bash
+brew install zsh zsh-completions antigen
+```
 
 install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
-    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
 Docs
 
@@ -17,7 +21,9 @@ Docs
 
 Managed with [antigen](https://github.com/zsh-users/antigen) and bundles already configured in `.antigenrc`. Was installed above with homebrew.
 
-    brew install antigen
+```bash
+brew install antigen
+```
 
 ## Themes / Fonts
 

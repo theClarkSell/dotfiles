@@ -19,3 +19,16 @@ My repo is setup using [dotbot](https://github.com/anishathalye/dotbot).
 
 This repo has a folder for each respective area of dotfiles. In each you will find a readme
 detailing the setup for that area.
+
+## git submodules
+
+```bash
+git submodule add --force https://github.com/anishathalye/dotbot;
+git submodule add --force https://github.com/powerline/fonts.git fonts/powerline;
+git submodule add --force https://github.com/scrooloose/nerdtree.git vim/bundle/nerdtree;
+git submodule add --force https://github.com/scrooloose/nerdcommenter.git vim/bundle/nerdcommenter;
+git submodule add --force https://github.com/airblade/vim-gitgutter.git vim/bundle/vim-gitgutter;
+git submodule add --force https://github.com/tpope/vim-repeat.git vim/bundle/vim-repeat;
+git submodule add --force https://github.com/tpope/vim-surround.git vim/bundle/vim-surround;
+git submodule add --force https://github.com/itchyny/lightline.vim.git vim/bundle/lightline;
+```
