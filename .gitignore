@@ -2,3 +2,9 @@
 
 # never include any vim working files
 .swp
+
+
+# excluding git submodules
+vim/bundles
+fonts/powerline
+dotbot
