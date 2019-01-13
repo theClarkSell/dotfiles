@@ -6,7 +6,7 @@ assumes `homebrew` and `git` are already installed.
 
 ```bash
 https://github.com/csell5/dotfiles.git;
-brew install zsh zsh-completions antigen;
+brew install zsh zsh-completions antigen nodenv;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
 cd ./dotfiles;
 ./install
@@ -52,4 +52,8 @@ git submodule add --force https://github.com/airblade/vim-gitgutter.git vim/bund
 git submodule add --force https://github.com/tpope/vim-repeat.git vim/bundle/vim-repeat;
 git submodule add --force https://github.com/tpope/vim-surround.git vim/bundle/vim-surround;
 git submodule add --force https://github.com/itchyny/lightline.vim.git vim/bundle/lightline;
+git submodule add --force https://github.com/nodenv/node-build.git nodenv/plugins/node-build;
+git submodule add --force https://github.com/nodenv/nodenv-package-rehash.git nodenv/plugins/nodenv-package-rehash;
+git submodule add --force https://github.com/nodenv/nodenv-update.git nodenv/plugins/nodenv-update;
+
 ```
