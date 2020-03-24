@@ -42,6 +42,13 @@ git submodule add --force https://github.com/nodenv/nodenv-package-rehash.git no
 git submodule add --force https://github.com/nodenv/nodenv-update.git nodenv/plugins/nodenv-update;
 ```
 
+## updating submodules
+
+```
+    git pull --recurse-submodules
+    git submodule update --remote --recursive
+```
+
 ## Great articles on getting setup
 
 - [Github on dotfiles](https://dotfiles.github.io/)
