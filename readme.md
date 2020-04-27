@@ -45,6 +45,9 @@ git submodule add --force https://github.com/nodenv/nodenv-update.git nodenv/plu
 ## updating submodules
 
 ```
+    git submodule foreach git pull origin master
+    
+    old...
     git pull --recurse-submodules
     git submodule update --remote --recursive
 ```
