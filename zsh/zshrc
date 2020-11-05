@@ -22,7 +22,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 eval "$(nodenv init -)"
 
 alias nrs='npm run start:watch:raw'
-
+alias nd='npm run dev'
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/clarksell/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/clarksell/google-cloud-sdk/path.zsh.inc'; fi
