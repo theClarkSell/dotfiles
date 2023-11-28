@@ -11,7 +11,7 @@ assumes `homebrew` and `git` are already installed.
 
 ```bash
 https://github.com/csell5/dotfiles.git;
-brew install zsh zsh-completions antigen nodenv;
+brew install zsh zsh-completions antigen nodenv neovim;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
 cd ./dotfiles;
 ./install
@@ -46,7 +46,7 @@ git submodule add --force https://github.com/nodenv/nodenv-update.git nodenv/plu
 
 ```
     git submodule foreach git pull origin master
-    
+
     old...
     git pull --recurse-submodules
     git submodule update --remote --recursive

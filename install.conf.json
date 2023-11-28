@@ -23,7 +23,8 @@
       "~/.zshrc": "zsh/zshrc",
       "~/.antigenrc": "zsh/antigenrc",
 
-      "~/.nodenv/plugins": "nodenv/plugins"
+      "~/.nodenv/plugins": "nodenv/plugins",
+      "~/.config/nvim": "nvim"
     }
   },
   {
@@ -31,7 +32,8 @@
       ["git submodule update --init --recursive", "updating submodules"],
       ["./fonts/powerline/install.sh", "installing Powerline Fonts"],
       ["nodenv update", "updating nodenv"],
-      ["nodenv package-hooks install --all", "installing nodenv package hooks"]
+      ["nodenv package-hooks install --all", "installing nodenv package hooks"],
+      ["gem install colorls", "installing colorls"]
     ]
   }
 ]

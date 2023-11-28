@@ -2,6 +2,9 @@
 
 ### [Hack Font](https://sourcefoundry.org/hack/)
 
+### [NerdFonts](https://www.nerdfonts.com/)
+Currently using hack...
+
 Manually Swap terminal and editor to Hack
 
 - https://github.com/source-foundry/Hack#quick-installation
