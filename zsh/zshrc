@@ -22,11 +22,21 @@ ANTIGEN_MUTEX=false
 source /opt/homebrew/share/antigen/antigen.zsh
 antigen init $HOME/.antigenrc
 
+
 # initalize completions
-fpath=(/usr/local/share/zsh-completions $fpath)
+# fpath=(/usr/local/share/zsh-completions $fpath)
+if type brew &>/dev/null; then
+ FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+ autoload -Uz compinit
+ compinit
+fi
+
 
 # loads nodenv
 eval "$(nodenv init -)"
+# initl python
+eval "$(pyenv init --path)"
 
 alias nrs='npm run start:watch:raw'
 alias nd='npm run dev'
@@ -42,9 +52,6 @@ if [ -f '/Users/clarksell/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/clark
 if [ -f '/Users/clarksell/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/clarksell/google-cloud-sdk/completion.zsh.inc'; fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-
-
   
 # bun completions
 [ -s "/Users/csell/.bun/_bun" ] && source "/Users/csell/.bun/_bun"
